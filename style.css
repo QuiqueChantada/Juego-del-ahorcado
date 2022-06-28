@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(227,203,136); /* Color de fondo */
+    margin: 2rem;
+    background-size: cover;
+    font-family: 'Jetbrains mono', Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    text-align: center;
+    
+}
+
+h1{
+    margin: 0;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+form{
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+input {
+    border-radius:6px;
+    padding-left: 0.5rem;
+    width: 16%;
+}
+
+button {
+    
+    background-color: rgb(42,117,171);
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+input, button {
+    padding: 0.5rem 1rem;
+    font-size: 100%;
+    border: none;
+}
